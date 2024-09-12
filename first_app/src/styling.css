@@ -1022,7 +1022,7 @@ div .Morbii {
 span.MorbiiTWO {
     position: relative;
     left: 125px;
-    top: -13px;
+    top: 0;
 }
 p.customers {
     font-size: 48px;
@@ -2044,9 +2044,9 @@ img.linked {
         background: #F5F5F2;
         display: block;
     }
-    .Wrapper6{
+    /* .Wrapper6{
         display: none;
-    }
+    } */
     span.fringillaONE, span.fringillaONETWO {
         font-size: 18px;
         font-family: Roboto;
