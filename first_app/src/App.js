@@ -81,8 +81,8 @@ export default class App extends React.Component {
               <h1>{this.props.type} Component</h1>
               <FirstDescription />
               <FirstSearchPhoto />
-              < LivingRoomPhoto/>
           </div>  
+          <LivingRoomPhoto/>
       </div>
       
       
