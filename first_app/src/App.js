@@ -30,6 +30,7 @@ import searchImage from "./Photos/search.png";
 import livingRoom from "./Photos/livingroom.png";
 import restRoom from "./Photos/family_restroom.png";
 import logo from "./Photos/logo.png";
+import EmailBtn from './components/EmailBtn/EmailBtn';
 
 const searchIcon = {
   name: "Seacrh",
@@ -92,15 +93,15 @@ class Footer extends React.PureComponent {
     )
   }
 }
-class EmailBtn extends React.Component {
-  render() {
-    return (
-      <button className="email">
-             Enter your email
-        </button>
-    )
-  }
-}
+// class EmailBtn extends React.Component {
+//   render() {
+//     return (
+//       <button className="email">
+//              Enter your email
+//         </button>
+//     )
+//   }
+// }
 class SubscribeBtn extends React.Component {
   render() {
     return (
@@ -182,6 +183,7 @@ export default class App extends React.Component {
               {/* <h1>{this.props.type} Component</h1> */}
               <FirstDescription />
               <FirstSearchPhoto />
+              <EmailBtn/>
           </div>  
           <LivingRoomPhoto/>
       </div>
