@@ -25,16 +25,12 @@
 // export default App;
 import React from 'react';
 import './styling.css';
-import restRoom from "./Photos/family_restroom.png";
+
 import FirstDescription from './components/FirstDescription/FirstDescription';
 import FirstSearchPhoto from './components/FirstSearchPhoto/FirstSearchPhoto';
 import Footer from './components/Footer/Footer';
 import LivingRoomPhoto from './components/LivingRoomPhoto/LivingRoomPhoto';
-
-const  FamilyRestRoom= {
-  name : 'RestRoom',
-  imageUrl: restRoom
-}
+import FamilyPriority from './components/FamilyPriority/FamilyPriority';
 
 class GetStartedBtn extends React.Component{
   render() {
@@ -45,23 +41,7 @@ class GetStartedBtn extends React.Component{
     )
   }
 }
-class FamilyPriority extends React.Component {
-  render() {
-    return(
-      <div className ="Wrapper6">
-      <div className="Wrapper7">
-                <div><img src={FamilyRestRoom.imageUrl} className = "family_restroom"/></div>
-                <div><p className="priority">Families are our priority</p></div>
-                <div><p className="Morbii">
-                    <span className="MorbiiONE">The main priority of Realco is to provide the family with the best and most affordable conform it could pay </span>
-                    <div><span className="MorbiiTWO">for we are not only a business to a company which proritizes family unity and form.</span></div>                          
-                </p></div>
-                <div><GetStartedBtn /></div>
-      </div>
- </div>
-    )
-  }
-}
+
 export default class App extends React.Component {
   render() {
     return (
