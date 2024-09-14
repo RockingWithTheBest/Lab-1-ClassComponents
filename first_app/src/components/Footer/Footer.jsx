@@ -1,8 +1,8 @@
 import React from 'react';
 import SubscribeBtn from '../SubscribeBtn/SubscribeBtn';
 import EmailBtn from '../EmailBtn/EmailBtn';
-import './styling.css'; 
 import logo from "./Pictures/logo.png";
+import './styling.css';
 
 
 const footerLogo = {

@@ -1514,11 +1514,7 @@ p.F404 {
     position: relative;
     left: 44px;
 }
-.join span {
-    position: relative;
-    top: 23px;
-    left: -382px;
-}
+
 .entemail {
     margin-top: 40px;
 }
@@ -2772,9 +2768,7 @@ p.lorem {
         
         flex-direction: column;
     }
-    .Wrapper10{
-        display: none;
-    }
+  
     .Imageingrid10 {
         display: flex;
         flex-direction: row;

@@ -1022,7 +1022,7 @@ div .Morbii {
 span.MorbiiTWO {
     position: relative;
     left: 125px;
-    top: 0;
+    top: -13px;
 }
 p.customers {
     font-size: 48px;
@@ -2044,9 +2044,9 @@ img.linked {
         background: #F5F5F2;
         display: block;
     }
-    /* .Wrapper6{
+    .Wrapper6{
         display: none;
-    } */
+    }
     span.fringillaONE, span.fringillaONETWO {
         font-size: 18px;
         font-family: Roboto;
@@ -2772,17 +2772,21 @@ p.lorem {
         
         flex-direction: column;
     }
-    .Wrapper10{
-        display: none;
+    .Wrapper10 {
+        display: flex;
+        justify-content: flex-start;
+        gap: 9px;
+        flex-direction: column;
     }
     .Imageingrid10 {
         display: flex;
         flex-direction: row;
     }
-    .phaboy, .utilitypages {
+    .phaboy , .utilitypages{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
+     
     .phaboy , .utilitypages {
         font-family: Roboto;
         line-height: 0px;
@@ -2920,6 +2924,13 @@ p.lorem {
         left: 19px;
     }
 }
+
+@media screen and (max-width: 494px) {
+    .phaboy, .cmsprop, .utilitypages {
+        display: flex;
+           gap: 8px;
+    }
+}
 @media screen and (max-width: 495px) {
     .images img {
         width: 12px;
@@ -2966,6 +2977,30 @@ p.lorem {
         margin-left: 20px;
         font-size: 13px;
         line-height: 20px;
+    }
+}
+@media screen and (max-width: 427px) {
+    .phaboy, .cmsprop, .utilitypages {
+        display: grid;
+        gap: 0;
+    }
+    .cmsprop {
+        margin-left: 163px;
+        margin-top: -128px;
+    }
+    p.property, p.cms, p.catergories, p.blogsingle, p.Propertysingle {
+        margin: 0;
+    }
+   
+    p.pages, p.cms, p.pagesutilize {
+        font-size: 14px;
+        position: relative;
+        top: -0;
+    }
+    .join span {
+        position: relative;
+        top: 0;
+        left: 0;
     }
 }
 @media screen and (max-width: 422px){
